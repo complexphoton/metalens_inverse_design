@@ -1,4 +1,4 @@
-# In this file, we inverse design a metalens with wide feild of view (FOV).
+# In this file, we inverse design a metalens with wide field of view (FOV).
 # We change the permittivity of each design pixel inside the metalens,
 # maximizing the objective function (the product of transmission efficiency and Strehl ratio for each incident angle within the FOV of interest) [See Eq.(1) of the paper].
 # The gradient of the objective function is computed using adjoint method [See Eq.(3) of the paper].
