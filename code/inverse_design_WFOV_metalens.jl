@@ -8,7 +8,7 @@ include("asp.jl")
 ENV["MUMPS_PREFIX"] = "the path to libraries of MUMPS"
 
 # Load the essential modules
-using MESTI
+using MESTI # Used for full-wave simulations
 using Random # Used for the repeatability of random numbers
 using Interpolations # Perform interplations
 using FFTW # Perform fast Fourier transform
