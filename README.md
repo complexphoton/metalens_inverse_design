@@ -15,4 +15,4 @@ To conduct efficient optimizations, follow these steps:
 An animation demonstrating the evolution of both the metalens and its focusing performance is shown below.
 <img align="center" src="https://github.com/complexphoton/metalens_inverse_design/blob/main/code/animated_opt.gif" width=90% height=90%>
 
-The related paper will soon be available on arXiv.
+See [arXiv:2311.13592](https://arxiv.org/abs/2311.13592) for the corresponding manuscript.
