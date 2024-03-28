@@ -15,4 +15,4 @@ To conduct efficient optimizations, follow these steps:
 An animation demonstrating the evolution of both the metalens and its focusing performance is shown below.
 <img align="center" src="https://github.com/complexphoton/metalens_inverse_design/blob/main/code/animated_opt.gif" width=90% height=90%>
 
-See [High-efficiency high-numerical-aperture metalens designed by maximizing the efficiency limit]([https://arxiv.org/abs/2311.13592](https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-4-454&id=548448)) for more details.
+See the paper [High-efficiency high-numerical-aperture metalens designed by maximizing the efficiency limit](https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-4-454&id=548448) for more details.
