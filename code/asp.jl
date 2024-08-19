@@ -85,7 +85,7 @@ function asp(f0::Union{Matrix{Int64}, Matrix{Float64}, Matrix{ComplexF64}, Vecto
         a_max = Int(round((N_prop-1)/2))
         ind_prop = vcat(collect(1:(a_max+1)), collect((ny_tot-a_max+1):ny_tot))
         f_fft_prop = exp.(1im.*kx_prop.*x).*f0_fft[ind_prop,:]
-        f = exp.((-2im*pi*a_max/ny_tot).*collect(0:(ny_tot-1))).*ifft([circshift(f_fft_prop, a_max); zeros(ny_tot-N_prop,size(f0,2))], (1,))
+        f = exp.((-2im*pi*a_max/ny_tot).*collect(0:(ny_tot-1))).*ifft([circshift(f_fft_prop, a_max); zeros(ny_tot-N_prop,size(f_fft_prop,2))], (1,))
     end
     
     return f
