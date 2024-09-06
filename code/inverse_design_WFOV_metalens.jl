@@ -91,8 +91,8 @@ kydx_FOV = channels_L.kydx_prop[ind_kydx_FOV]   # kydx within the FOV
 kxdx_FOV = sqrt.((k0dx)^2 .- (kydx_FOV).^2)     # kxdx within the FOV
 N_L = length(kydx_FOV)   # Number of inputs
 
-B_basis = channels_L.u_x_m(channels_L.kydx_prop)       # Build the propagating channels on the left of metalens
-C_R = conj(channels_R.u_x_m(channels_R.kydx_prop))     # Build the propagating channels on the right of metalens
+B_basis = channels_L.f_x_m(channels_L.kydx_prop)       # Build the propagating channels on the left of metalens
+C_R = conj(channels_R.f_x_m(channels_R.kydx_prop))     # Build the propagating channels on the right of metalens
 
 # Multiply the flux-normalized prefactor sqrt(nu)
 # Note that N_R includes all propagating channels on the right, but N_L
